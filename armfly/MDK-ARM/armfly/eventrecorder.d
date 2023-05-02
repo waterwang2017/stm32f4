@@ -1,4 +1,4 @@
-armfly\eventrecorder.o: D:\Keil_v5\pack\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c
+armfly\eventrecorder.o: D:\Keil_v5\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c
 armfly\eventrecorder.o: .\RTE\_armfly\RTE_Components.h
 armfly\eventrecorder.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 armfly\eventrecorder.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
@@ -29,5 +29,5 @@ armfly\eventrecorder.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_
 armfly\eventrecorder.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 armfly\eventrecorder.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 armfly\eventrecorder.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-armfly\eventrecorder.o: D:\Keil_v5\pack\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h
+armfly\eventrecorder.o: D:\Keil_v5\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h
 armfly\eventrecorder.o: .\RTE\Compiler\EventRecorderConf.h

@@ -1,7 +1,4 @@
-SET PATH=D:\Keil_v5\ARM\ARMCC\Bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;
-SET ARMCC5_ASMOPT=--diag_suppress=9931
-SET ARMCC5_CCOPT=--diag_suppress=9931
-SET ARMCC5_LINKOPT=--diag_suppress=9931
+SET PATH=D:\Keil_v5\ARM\ARMCC\Bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;d:\Git\cmd;C:\Users\28204\AppData\Local\Microsoft\WindowsApps;
 SET CPU_TYPE=STM32F407IGTx
 SET CPU_VENDOR=STMicroelectronics
 SET UV2_TARGET=armfly
@@ -33,3 +30,4 @@ SET CPU_CLOCK=0x017D7840
 "D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "armfly\eventrecorder.__i"
 "D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "armfly\retarget_io.__i"
 "D:\Keil_v5\ARM\ARMCC\Bin\ArmLink" --Via "armfly\armfly.lnp"
+"D:\Keil_v5\ARM\ARMCC\Bin\fromelf.exe" "armfly\armfly.axf" --i32combined --output "armfly\armfly.hex"

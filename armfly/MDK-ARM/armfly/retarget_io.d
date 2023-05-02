@@ -1,4 +1,4 @@
-armfly\retarget_io.o: D:\Keil_v5\pack\Keil\ARM_Compiler\1.6.3\Source\retarget_io.c
+armfly\retarget_io.o: D:\Keil_v5\Keil\ARM_Compiler\1.6.3\Source\retarget_io.c
 armfly\retarget_io.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 armfly\retarget_io.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 armfly\retarget_io.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
@@ -6,4 +6,4 @@ armfly\retarget_io.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 armfly\retarget_io.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
 armfly\retarget_io.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_sys.h
 armfly\retarget_io.o: .\RTE\_armfly\RTE_Components.h
-armfly\retarget_io.o: D:\Keil_v5\pack\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h
+armfly\retarget_io.o: D:\Keil_v5\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h

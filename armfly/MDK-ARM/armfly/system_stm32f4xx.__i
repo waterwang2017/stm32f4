@@ -1,8 +1,8 @@
 --c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\User\bsp\inc
 -I.\RTE\Compiler
 -I.\RTE\_armfly
--ID:\Keil_v5\pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include
--ID:\Keil_v5\pack\Keil\ARM_Compiler\1.6.3\Include
--ID:\Keil_v5\pack\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-ID:\Keil_v5\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+-ID:\Keil_v5\Keil\ARM_Compiler\1.6.3\Include
+-ID:\Keil_v5\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
 -D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx
 -o armfly\system_stm32f4xx.o --omf_browse armfly\system_stm32f4xx.crf --depend armfly\system_stm32f4xx.d "../Core/Src/system_stm32f4xx.c"

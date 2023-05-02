@@ -31,7 +31,6 @@ armfly\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 armfly\main.o: ../Core/Inc/gpio.h
 armfly\main.o: ..\User\bsp\inc\bsp.h
 armfly\main.o: .\RTE\Compiler\EventRecorderConf.h
-armfly\main.o: D:\Keil_v5\pack\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h
+armfly\main.o: D:\Keil_v5\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h
 armfly\main.o: ..\User\bsp\inc\bsp_led.h
-armfly\main.o: ..\User\bsp\inc\bsp.h
 armfly\main.o: ..\User\bsp\inc\bsp_key.h

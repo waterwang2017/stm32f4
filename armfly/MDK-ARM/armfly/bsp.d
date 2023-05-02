@@ -29,7 +29,6 @@ armfly\bsp.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 armfly\bsp.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 armfly\bsp.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 armfly\bsp.o: .\RTE\Compiler\EventRecorderConf.h
-armfly\bsp.o: D:\Keil_v5\pack\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h
+armfly\bsp.o: D:\Keil_v5\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h
 armfly\bsp.o: ..\User\bsp\inc\bsp_led.h
-armfly\bsp.o: ..\User\bsp\inc\bsp.h
 armfly\bsp.o: ..\User\bsp\inc\bsp_key.h

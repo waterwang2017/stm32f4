@@ -65,7 +65,7 @@ void SystemClock_Config(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+	uint8_t flag;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -78,7 +78,7 @@ int main(void)
 EventRecorderInitialize(EventRecordAll, 1U);
 EventRecorderStart();
 	
-	bsp_led_init();
+	bsp_Init();
 	
   /* USER CODE END Init */
 
@@ -101,19 +101,32 @@ EventRecorderStart();
   {
     /* USER CODE END WHILE */
 		
-		bsp_led_on(1);
-		bsp_led_on(2);
-		bsp_led_on(3);
-		bsp_led_on(4);
-	 	EventStartA(0);
-		HAL_Delay(1000);
-	 	EventStopA(0);
-		bsp_led_off(1);
-		bsp_led_off(2);
-		bsp_led_off(3);
-		bsp_led_off(4);
-		HAL_Delay(1000);
+//		bsp_led_on(1);
+//		bsp_led_on(2);
+//		bsp_led_on(3);
+//		bsp_led_on(4);
+//	 	EventStartA(0);
+//		HAL_Delay(1000);
+//	 	EventStopA(0);
+//		bsp_led_off(1);
+//		bsp_led_off(2);
+//		bsp_led_off(3);
+//		bsp_led_off(4);
+//		HAL_Delay(1000);
+		
     /* USER CODE BEGIN 3 */
+		
+ //if( ((0 == getkey())?(flag = 0): (flag = 1) ) ) )
+
+		if((0 == getkey())? 1: 0)
+		{
+			bsp_led_on(1);
+			HAL_Delay(1000);
+			bsp_led_off(1);
+			HAL_Delay(1000);
+		}
+ 
+		
   }
   /* USER CODE END 3 */
 }

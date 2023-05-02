@@ -5,7 +5,7 @@
 <h2>Tool Versions:</h2>
 IDE-Version: ¦ÌVision V5.33.0.0
 Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: 11 dell, 11, LIC=D0D7S-LB9VB-126LE-5YP9M-HWEZF-WX2IU
+License Information: 1 282045368@qq.com, 11, LIC=WHYH9-4V0WR-HL5CL-0TYK1-DTA5I-9A35C
  
 Tool Versions:
 Toolchain:       MDK-ARM Plus  Version: 5.33.0.0
@@ -21,8 +21,8 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
 Dialog DLL:      TCM.DLL V1.48.0.0
  
 <h2>Project:</h2>
-C:\Users\dell\Desktop\armfly\armfly\MDK-ARM\armfly.uvprojx
-Project File Date:  04/20/2023
+C:\Users\28204\Desktop\´úÂë\stm32f4\stm32f4\armfly\MDK-ARM\armfly.uvprojx
+Project File Date:  05/02/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
@@ -30,6 +30,9 @@ Project File Date:  04/20/2023
 Rebuild target 'armfly'
 assembling startup_stm32f407xx.s...
 compiling main.c...
+../Core/Src/main.c(68): warning:  #177-D: variable "flag"  was declared but never referenced
+        uint8_t flag;
+../Core/Src/main.c: 1 warning, 0 errors
 compiling gpio.c...
 compiling stm32f4xx_it.c...
 compiling stm32f4xx_hal_msp.c...
@@ -51,42 +54,13 @@ compiling stm32f4xx_hal_exti.c...
 compiling system_stm32f4xx.c...
 compiling bsp_led.c...
 compiling bsp_key.c...
-..\User\bsp\src\bsp_key.c(31): error:  #169: expected a declaration
-    __HAL_RCC_GPIOI_CLK_ENABLE();
-..\User\bsp\src\bsp_key.c(32): error:  #169: expected a declaration
-    __HAL_RCC_GPIOC_CLK_ENABLE();
-..\User\bsp\src\bsp_key.c(33): error:  #169: expected a declaration
-    __HAL_RCC_GPIOH_CLK_ENABLE();
-..\User\bsp\src\bsp_key.c(34): error:  #169: expected a declaration
-    __HAL_RCC_GPIOF_CLK_ENABLE();
-..\User\bsp\src\bsp_key.c(35): error:  #169: expected a declaration
-    __HAL_RCC_GPIOG_CLK_ENABLE();
-..\User\bsp\src\bsp_key.c(37): warning:  #1-D: last line of file ends without a newline
-   }
-..\User\bsp\src\bsp_key.c(37): error:  #169: expected a declaration
-   }
-..\User\bsp\src\bsp_key.c: 1 warning, 6 errors
 compiling bsp.c...
-..\User\bsp\src\bsp.c(7): error:  #169: expected a declaration
-    __HAL_RCC_GPIOI_CLK_ENABLE();
-..\User\bsp\src\bsp.c(8): error:  #169: expected a declaration
-    __HAL_RCC_GPIOF_CLK_ENABLE();
-..\User\bsp\src\bsp.c(9): error:  #169: expected a declaration
-    __HAL_RCC_GPIOH_CLK_ENABLE();
-..\User\bsp\src\bsp.c(10): error:  #169: expected a declaration
-    __HAL_RCC_GPIOC_CLK_ENABLE();
-..\User\bsp\src\bsp.c(11): error:  #169: expected a declaration
-    __HAL_RCC_GPIOA_CLK_ENABLE();
-..\User\bsp\src\bsp.c(13): error:  #169: expected a declaration
-   }
-..\User\bsp\src\bsp.c(28): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
-..\User\bsp\src\bsp.c: 1 warning, 6 errors
 compiling EventRecorder.c...
 compiling retarget_io.c...
 linking...
-armfly\armfly.axf: error: L6002U: Could not open file armfly\bsp_key.o: No such file or directory
-Finished: 0 information, 0 warning, 0 error and 1 fatal error messages.
-"armfly\armfly.axf" - 13 Error(s), 2 Warning(s).
+Program Size: Code=4242 RO-data=466 RW-data=16 ZI-data=2264  
+FromELF: creating hex file...
+"armfly\armfly.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -111,9 +85,9 @@ Package Vendor: Keil
 <h2>Collection of Component include folders:</h2>
   .\RTE\Compiler
   .\RTE\_armfly
-  D:\Keil_v5\pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include
-  D:\Keil_v5\pack\Keil\ARM_Compiler\1.6.3\Include
-  D:\Keil_v5\pack\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+  D:\Keil_v5\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  D:\Keil_v5\Keil\ARM_Compiler\1.6.3\Include
+  D:\Keil_v5\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
 
 <h2>Collection of Component Files used:</h2>
 
@@ -122,13 +96,12 @@ Package Vendor: Keil
 
    * Component: Keil.ARM Compiler::Compiler:Event Recorder:DAP:1.4.0
       Include file:  Config\EventRecorderConf.h
-      Source file:   Source\EventRecorder.c
       Include file:  Include\EventRecorder.h
+      Source file:   Source\EventRecorder.c
 
    * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:EVR:1.2.0
       Source file:   Source\retarget_io.c
-Target not created.
-Build Time Elapsed:  00:00:47
+Build Time Elapsed:  00:00:48
 </pre>
 </body>
 </html>
